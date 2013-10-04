@@ -53,6 +53,21 @@ function urlPath() {
     return path.join('/');
 }
 
+function initGaleria() {
+    setTimeout(function() {
+        var tmp;
+        try {
+            tmp = TheImageFlow;
+        } catch (e) {
+            tmp = false;
+        }
+        if (tmp)
+            tmp.init();
+        else
+            console.log("não tem TheImageFlow");
+    }, 100);
+}
+
 (function(window, require) {
 
     "use strict";

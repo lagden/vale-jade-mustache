@@ -27,6 +27,7 @@
         dados[lang].galery.pika = function() { return pika++; };
 
         snolabBase.innerHTML = Mustache.render(template, dados[lang]);
+        initGaleria();
 
     });
 
