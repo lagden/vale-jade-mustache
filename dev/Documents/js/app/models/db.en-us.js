@@ -16,16 +16,16 @@
             "article2": {
                 "title": "Snolab para o mundo",
                 "content": {
-                    "txt1": "Entre os principais estudos desenvolvidos no local está o de um raro processo radioativo chamado neutrino-less double beta decay, que poderia explicar o desenvolvimento da matéria e do mundo. Algumas pesquisas buscam, por exemplo, partículas de matérias escuras deixadas pelo Big Bang, a grande explosão que teria dado origem ao Universo. Existente em abundância no Cosmo, o neutrino é uma dessas partículas. Sem carga elétrica e com massa extremamente pequena, ele é considerado um elemento-chave, pois consegue se relacionar tanto com a matéria quanto com a matéria escura.",
+                    "txt1": "Entre os principais estudos desenvolvidos no local está o de um raro processo radioativo chamado neutrino-less double beta decay, que poderia explicar o desenvolvimento da matéria e do mundo. Algumas pesquisas buscam, por exemplo, partículas de matérias escuras deixadas pelo Big Bang, a grande explosão que teria dado origem ao Universo. Existente em abundância no Cosmo, o neutrino é uma dessas partículas. Sem carga elétrica e com massa extremamente pequena, ele é considerado um elemento-chave, pois consegue se relacionar tanto com a matéria quanto com a matéria escura."
                 }
             },
             "article3": {
                 "title": "Snolab para a Vale",
                 "content": {
                     "txt1": "O Snolab também serve como base de instalação para o sistema de monitoramento sísmico tridimensional Pups (sigla em inglês para Polaris Underground Project at Snolab), que fornece informações detalhadas sobre atividades sísmicas para a indústria da mineração. Essas informações geotécnicas, por exemplo, nos ajudam a planejar escavações de minas profundas.",
-                    "txt2": "De acordo com o pesquisador e diretor do laboratório, Nigel Smith, o Snolab tem diversas pesquisas que podem ser aplicadas ao negócio da Vale e à mineração. Algumas são ligadas a escavações e perfuração de rochas, atividades usualmente realizadas por esta indústria. "
-                    "txt3": "Há ainda muito o que se pesquisar sobre os melhores meios para minerar, para abrir e manter cavas. Essa é uma das áreas para que ainda podemos contribuir, desenvolvendo outras técnicas. O apoio da Vale está sendo decisivo para abrirmos novas fronteiras para a ciência"
-                    "txt4": "NIGEL SMITH. Diretor da Snolab"
+                    "txt2": "De acordo com o pesquisador e diretor do laboratório, Nigel Smith, o Snolab tem diversas pesquisas que podem ser aplicadas ao negócio da Vale e à mineração. Algumas são ligadas a escavações e perfuração de rochas, atividades usualmente realizadas por esta indústria.",
+                    "txt3": "Há ainda muito o que se pesquisar sobre os melhores meios para minerar, para abrir e manter cavas. Essa é uma das áreas para que ainda podemos contribuir, desenvolvendo outras técnicas. O apoio da Vale está sendo decisivo para abrirmos novas fronteiras para a ciência",
+                    "txt4": "NIGEL SMITH. Diretor da Snolab",
                     "txt5": "Assista à entrevista com o cientista"
                 },
                 "video": "//www.youtube.com/embed/az2VLQJJnas",

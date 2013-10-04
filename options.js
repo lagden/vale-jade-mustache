@@ -1,6 +1,6 @@
 "use strict";
 
-var commonExcludes = ['config', 'jquery', 'mustache', 'text', 'jquery.fancybox'];
+var commonExcludes = ['config', 'jquery', 'mustache', 'text'];
 
 module.exports = {
     optimize: 'uglify2',
@@ -15,8 +15,7 @@ module.exports = {
         include: [
             'jquery',
             'mustache',
-            'text',
-            'jquery.fancybox'
+            'text'
         ]
     }, {
         name: 'app/main',

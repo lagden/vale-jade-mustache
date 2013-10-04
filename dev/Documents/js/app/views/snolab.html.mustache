@@ -12,7 +12,7 @@
     {{! Flow }}
     <div data-href="#imageFlowFotosSnolab" data-slider="#pika_imageFlowFotosSnolab" data-tipo="imagem" data-width="800" data-height="600" class="imageflow imageflow-full">
         {{ #galery.imgs }}
-            <img src="../Documents/images/galery/{{ img }}" alt="{{ title }}" data-flow="img_{{ idx }}" data-pos="{{ idx }}">
+            <img src="{{ img }}" alt="{{ galery.title }}" data-flow="img_{{ galery.flow }}" data-pos="{{ galery.pos }}">
         {{ /galery.imgs }}
     </div>
     {{! Fancy }}
@@ -21,7 +21,7 @@
             <ul id="pika_imageFlowFotosSnolab" class="pikame">
                 {{ #galery.imgs }}
                 <li>
-                    <img src="../Documents/images/galery/{{ img }}" alt="{{ title }}" data-flow="img_{{ idx }}" width="686" height="386">
+                    <img src="{{ img }}" alt="{{ galery.title }}" data-flow="img_{{ galery.pika }}" width="686" height="386">
                     <span></span>
                 </li>
                 {{ /galery.imgs }}
