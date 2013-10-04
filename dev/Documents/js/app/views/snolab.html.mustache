@@ -10,7 +10,7 @@
 <article>
     <h2 class="txt-color-green mar-b-20">{{ galery.title }}</h2>
     {{! Flow }}
-    <div data-href="#imageFlowFotosSnolab" data-slider="#pika_imageFlowFotosSnolab" data-tipo="imagem" data-width="800" data-height="600" class="imageflow imageflow-full">
+    <div id="imageflowDoSnolab" data-href="#imageFlowFotosSnolab" data-slider="#pika_imageFlowFotosSnolab" data-tipo="imagem" data-width="800" data-height="600" class="imageflow imageflow-full">
         {{ #galery.imgs }}
             <img src="{{ img }}" alt="{{ galery.title }}" data-flow="img_{{ galery.flow }}" data-pos="{{ galery.pos }}">
         {{ /galery.imgs }}
