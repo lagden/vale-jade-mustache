@@ -42,21 +42,21 @@
             "galery": {
                 "title": "Galeria de fotos",
                 "imgs": [{
-                    "img": "http://lorempixel.com/686/386/abstract/"
+                    "img": "../Documents/images/galery/8.jpg"
                 }, {
-                    "img": "http://lorempixel.com/686/386/abstract/"
+                    "img": "../Documents/images/galery/8.jpg"
                 }, {
-                    "img": "http://lorempixel.com/686/386/abstract/"
+                    "img": "../Documents/images/galery/8.jpg"
                 }, {
-                    "img": "http://lorempixel.com/686/386/abstract/"
+                    "img": "../Documents/images/galery/8.jpg"
                 }, {
-                    "img": "http://lorempixel.com/686/386/abstract/"
+                    "img": "../Documents/images/galery/8.jpg"
                 }, {
-                    "img": "http://lorempixel.com/686/386/abstract/"
+                    "img": "../Documents/images/galery/8.jpg"
                 }, {
-                    "img": "http://lorempixel.com/686/386/abstract/"
+                    "img": "../Documents/images/galery/8.jpg"
                 }, {
-                    "img": "http://lorempixel.com/686/386/abstract/"
+                    "img": "../Documents/images/galery/8.jpg"
                 }]
             }
         }
