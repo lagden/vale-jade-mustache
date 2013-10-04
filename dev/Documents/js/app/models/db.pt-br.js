@@ -11,7 +11,7 @@
                     "txt2": "Considerado o mais profundo e limpo laboratório do mundo, o Snolab (Sudbury Neutrino Observatory Lab) fica nas profundezas da nossa mina Creighton, em Sudbury, Ontário, no Canadá. Com imensos tanques cheios de argônio, um gás nobre parecido com o nitrogênio, e outros gases resfriados, o laboratório amplia a produção de pesquisas científicas, além de gerar e difundir novos conhecimentos para a cadeia da mineração."
                 },
                 "video": "//www.youtube.com/embed/az2VLQJJnas",
-                "img": "http://lorempixel.com/693/300/abstract/"
+                "img": "../Documents/images/video1.jpg"
             },
             "article2": {
                 "title": "Snolab para o mundo",
@@ -29,7 +29,7 @@
                     "txt5": "Assista à entrevista com o cientista"
                 },
                 "video": "//www.youtube.com/embed/az2VLQJJnas",
-                "img": "http://lorempixel.com/350/250/abstract/"
+                "img": "../Documents/images/video2.jpg"
             },
             "article4": {
                 "title": "A Terra como escudo",
@@ -37,27 +37,38 @@
                     "txt1": "Mas, afinal, por que o laboratório é subterrâneo? A profundidade é necessária para proteger o ambiente de radiações cósmicas que bombardeiam a superfície do planeta. Ao ser construído a dois quilômetros abaixo da superfície, o Snolab permite que os cientistas conduzam experimentos em ambientes com a menor interferência possível de radioatividade ambiental e solar.",
                     "txt2": "Para se ter uma ideia do grau de sensibilidade, as experiências podem ser afetadas pelo urânio presente no concreto das cavernas e até mesmo pelo potássio do suor de uma mão. Usando a Terra como escudo contra os raios cósmicos, pesquisas podem ser melhor desenvolvidas com o intuito de entender mais sobre o Universo, como o surgimento das galáxias, por exemplo."
                 },
-                "img": "http://lorempixel.com/350/250/abstract/"
+                "img": "../Documents/images/escudo.jpg"
             },
             "galery": {
                 "title": "Galeria de fotos",
                 "imgs": [{
-                    "img": "../Documents/images/galery/8.jpg"
+                    "img": "../Documents/images/galery/1.jpg",
+                    "caption": "..."
                 }, {
-                    "img": "../Documents/images/galery/8.jpg"
+                    "img": "../Documents/images/galery/2.jpg",
+                    "caption": "..."
                 }, {
-                    "img": "../Documents/images/galery/8.jpg"
+                    "img": "../Documents/images/galery/3.jpg",
+                    "caption": "..."
                 }, {
-                    "img": "../Documents/images/galery/8.jpg"
+                    "img": "../Documents/images/galery/4.jpg",
+                    "caption": "..."
                 }, {
-                    "img": "../Documents/images/galery/8.jpg"
+                    "img": "../Documents/images/galery/5.jpg",
+                    "caption": "..."
                 }, {
-                    "img": "../Documents/images/galery/8.jpg"
+                    "img": "../Documents/images/galery/6.jpg",
+                    "caption": "..."
                 }, {
-                    "img": "../Documents/images/galery/8.jpg"
-                }, {
-                    "img": "../Documents/images/galery/8.jpg"
+                    "img": "../Documents/images/galery/7.jpg",
+                    "caption": "..."
                 }]
+            },
+            "links": {
+                "href1": "http://www.snolab.ca",
+                "caption1": "Visite o site no Snolab",
+                "href2": "http://www.youtube.com/watch?v=6P9fEhuyx50&list=FLlGXaidyLxYqzsp8FkUujBg",
+                "caption2": "Snolab no Youtube"
             }
         }
     });

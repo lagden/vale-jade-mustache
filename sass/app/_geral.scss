@@ -18,6 +18,15 @@
     }
 }
 
+%yellow{
+    @include link-colors($yellow, $yellow, $yellow, $yellow, $yellow);
+    @include hover-link;
+    color: $yellow !important;
+    &.none{
+        text-decoration: none;
+    }
+}
+
 .caecilia{
     @include sans-serif('CaeciliaLTStd-Bold');
 }
@@ -36,6 +45,16 @@
 
     .gray{
         @extend %gray;
+    }
+
+    .yellow{
+        @extend %yellow;
+    }
+
+    .snolab-links{
+        @extend .caecilia;
+        @include attr-size("font-size", 18);
+        text-align: center;
     }
 }
 

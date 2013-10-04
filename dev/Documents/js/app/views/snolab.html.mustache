@@ -22,7 +22,7 @@
                 {{ #galery.imgs }}
                 <li>
                     <img src="{{ img }}" alt="{{ galery.title }}" data-flow="img_{{ galery.pika }}" width="686" height="386">
-                    <span></span>
+                    <span>{{ caption }}</span>
                 </li>
                 {{ /galery.imgs }}
             </ul>
@@ -66,3 +66,7 @@
         </div>
     </div>
 </article>
+
+<div class="snolab-links">
+    <a class="yellow" href="{{ links.href1 }}">{{ links.caption1 }}</a> | <a class="yellow" href="{{ links.href2 }}">{{ links.caption2 }}</a>
+</div>
