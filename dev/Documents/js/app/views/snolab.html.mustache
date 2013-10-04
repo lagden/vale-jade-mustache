@@ -46,15 +46,15 @@
             <a class="fancybox-media fancybox.iframe" href="{{ article3.video }}" title="{{ article3.title }}" onclick="_gaq.push(['_trackEvent', 'snolab-entrevista-cientista', 'clique', 'video']);"><img src="{{ article3.img }}" alt="{{ article3.title }}"></a>
         </div>
         <div class="media__body">
-            <blockquote>{{ article3.content.txt3 }}</blockquote>
-            <p>{{ article3.content.txt4 }}</p>
-            <p>{{ article3.content.txt5 }}</p>
+            <blockquote class="txt-color-greenLight fs15 caecilia"><span class="bqstart">&#8220;</span>{{ article3.content.txt3 }}<span class="bqend">&#8221;</span></blockquote>
+            <p class="fs15">{{ article3.content.txt4 }}</p>
+            <p class="fs15 txt-color-green">{{ article3.content.txt5 }}</p>
         </div>
     </div>
 </article>
 
 {{! A Terra como escudo }}
-<article>
+<article class="mar-b-20">
     <h2 class="txt-color-green mar-b-20">{{ article4.title }}</h2>
     <p>{{ article4.content.txt1 }}</p>
     <div class="mediaCustom mar-b-10">

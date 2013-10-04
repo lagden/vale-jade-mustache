@@ -31,6 +31,10 @@
     @include sans-serif('CaeciliaLTStd-Bold');
 }
 
+.fs15{
+    @include attr-size("font-size", 15, 16, rem, "!important");
+}
+
 .awesome-snolab-base{
     width: $base-wrapper;
     p{
@@ -53,8 +57,16 @@
 
     .snolab-links{
         @extend .caecilia;
-        @include attr-size("font-size", 18);
+        @include attr-size("font-size", 18, 16, rem, "!important");
         text-align: center;
+    }
+
+    .bqstart {
+        float: left;
+    }
+
+    .bqend {
+        float: right;
     }
 }
 
