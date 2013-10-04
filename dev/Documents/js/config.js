@@ -59,9 +59,7 @@ function urlPath() {
 
     require.config({
         baseUrl: "../Documents/js",
-        enforceDefine: true,
         paths: {
-            "jquery": "//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min",
             "mustache": "lib/mustache",
             "text": "lib/text"
         }

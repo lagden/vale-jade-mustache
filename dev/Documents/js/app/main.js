@@ -9,17 +9,16 @@
         lang = 'pt-br';
 
     var requires = [
-        'jquery',
         'mustache',
         "app/models/db." + lang,
         "text!app/views/snolab.html.mustache"
     ];
 
-    define(requires, function($, Mustache, dados, template) {
+    define(requires, function(Mustache, dados, template) {
         var pos,
             flow,
             pika,
-            $snolabBase = $('#snolabBase');
+            snolabBase = document.getElementById('snolabBase');
 
         pos = flow = pika = 0;
 
@@ -27,9 +26,8 @@
         dados[lang].galery.pos = function() { return pos++; };
         dados[lang].galery.pika = function() { return pika++; };
 
-        $snolabBase
-            .empty()
-            .append(Mustache.render(template, dados[lang]));
+        snolabBase.innerHTML = Mustache.render(template, dados[lang]);
+
     });
 
 }(window, define));
