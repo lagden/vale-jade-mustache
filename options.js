@@ -1,6 +1,6 @@
 "use strict";
 
-var commonExcludes = ['config', 'jquery', 'mustache', 'text'];
+var commonExcludes = ['config', 'mustache', 'text'];
 
 module.exports = {
     optimize: 'uglify2',
@@ -13,7 +13,6 @@ module.exports = {
     modules: [{
         name: 'config',
         include: [
-            'jquery',
             'mustache',
             'text'
         ]
