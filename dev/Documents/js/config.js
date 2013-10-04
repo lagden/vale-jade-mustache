@@ -46,6 +46,7 @@ if (!(window.console && console.log)) {
 }
 
 // Retorna o o dir atual ex.: http://xxx.com/dir/awesome/index.html -> /dir/awesome
+
 function urlPath() {
     var path = String(window.location.pathname).split('/');
     path.pop();
@@ -57,9 +58,10 @@ function urlPath() {
     "use strict";
 
     require.config({
-        baseUrl: '../Documents/js',
+        baseUrl: "../Documents/js",
+        enforceDefine: true,
         paths: {
-            "jquery": "lib/jquery",
+            "jquery": "//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min",
             "mustache": "lib/mustache",
             "text": "lib/text"
         }
