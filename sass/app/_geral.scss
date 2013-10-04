@@ -1,0 +1,68 @@
+// Geral
+// -------------------------
+%green{
+    @include link-colors($green, $green, $green, $green, $green);
+    @include hover-link;
+    color: $green !important;
+    &.none{
+        text-decoration: none;
+    }
+}
+
+%gray{
+    @include link-colors($gray, $gray, $gray, $gray, $gray);
+    @include hover-link;
+    color: $gray !important;
+    &.none{
+        text-decoration: none;
+    }
+}
+
+.caecilia{
+    @include sans-serif('CaeciliaLTStd-Bold');
+}
+
+.awesome-snolab-base{
+    width: $base-wrapper;
+    p{
+        padding: 0 !important;
+        margin: 0 !important;
+        margin-bottom: 10px !important;
+    }
+
+    .green{
+        @extend %green;
+    }
+
+    .gray{
+        @extend %gray;
+    }
+}
+
+.mediaCustom{
+    @extend .cf;
+    display: block !important;
+
+    .media__img{
+        float: left !important;
+        margin-right: $base-spacing-unit !important;
+    }
+
+    .media__img--rev{
+        float: right !important;
+        margin-left: $base-spacing-unit !important;
+    }
+
+    .media__img img,
+    .media__img--rev img{
+        display:block !important;
+    }
+
+    .media__body{
+        overflow:hidden !important;
+    }
+    .media__body,
+    .media__body > :last-child{
+        margin-bottom: 0 !important;
+    }
+}

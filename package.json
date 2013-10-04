@@ -1,0 +1,37 @@
+{
+  "name": "snolab-vale",
+  "description": "Snolab - Vale.com",
+  "keywords": [
+    "requirejs",
+    "test",
+    "awesome",
+    "lagden"
+  ],
+  "version": "0.0.1",
+  "author": {
+    "name": "Thiago Lagden"
+  },
+  "scripts": {
+    "install": "volo add -f && grunt"
+  },
+  "license": "BSD",
+  "devDependencies": {
+    "matchdep": "~0.1.x",
+    "grunt": "~0.4.x",
+    "grunt-contrib-compass": "~0.5.x",
+    "grunt-contrib-clean": "~0.5.x",
+    "grunt-contrib-requirejs": "~0.4.x",
+    "grunt-contrib-watch": "~0.5.x",
+    "grunt-contrib-jshint": "~0.6.x",
+    "grunt-contrib-jade": "~0.8.x"
+  },
+  "volo": {
+    "baseUrl": "dev/Documents/js/lib",
+    "dependencies": {
+      "require": "github:jrburke/requirejs/2.1.8",
+      "text": "github:requirejs/text/2.0.10",
+      "mustache": "github:janl/mustache.js/0.7.2",
+      "jquery": "github:jquery/jquery/1.10.2"
+    }
+  }
+}

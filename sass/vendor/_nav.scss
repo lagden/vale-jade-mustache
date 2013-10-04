@@ -1,0 +1,42 @@
+.nav{
+    list-style:none;
+    margin-left:0;
+    @extend .cf;
+    > li{
+        &,
+        > a{
+            display:inline-block;
+           *display:inline;
+            zoom:1;
+        }
+    }
+}
+
+.nav--stacked{
+    > li{
+        display:list-item;
+    }
+}
+
+.nav--banner{
+    text-align:center;
+}
+
+.nav--fit{
+    display:table;
+    width:100%;
+    > li{
+        display:table-cell;
+    }
+}
+
+.nav--keywords{
+    > li{
+        &:after{
+            content:"\002C" "\00A0";
+        }
+        &:last-child:after{
+            display:none;
+        }
+    }
+}

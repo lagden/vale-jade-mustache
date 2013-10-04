@@ -1,0 +1,68 @@
+{{! Snolab }}
+<article>
+    <h1 class="txt-color-gray mar-b-20">{{ article1.title }}</h1>
+    <p>{{ article1.content.txt1 }}</p>
+    <a class="bl mar-b-20 fancybox-media fancybox.iframe" href="{{ article1.video }}" title="{{ article1.title }}" onclick="_gaq.push(['_trackEvent', 'snolab', 'clique', 'video']);"><img src="{{ article1.img }}" alt="{{ article1.title }}"></a>
+    <p>{{ article1.content.txt2 }}</p>
+</article>
+
+{{! Galeria }}
+<article>
+    <h2 class="txt-color-green mar-b-20">{{ galery.title }}</h2>
+    {{! Flow }}
+    <div data-href="#imageFlowFotosSnolab" data-slider="#pika_imageFlowFotosSnolab" data-tipo="imagem" data-width="800" data-height="600" class="imageflow imageflow-full">
+        {{ #galery.imgs }}
+            <img src="../Documents/images/galery/{{ img }}" alt="{{ title }}" data-flow="img_{{ idx }}" data-pos="{{ idx }}">
+        {{ /galery.imgs }}
+    </div>
+    {{! Fancy }}
+    <div id="imageFlowFotosSnolab" style="display:none;">
+        <div class="pikachoose-whiteout">
+            <ul id="pika_imageFlowFotosSnolab" class="pikame">
+                {{ #galery.imgs }}
+                <li>
+                    <img src="../Documents/images/galery/{{ img }}" alt="{{ title }}" data-flow="img_{{ idx }}" width="686" height="386">
+                    <span></span>
+                </li>
+                {{ /galery.imgs }}
+            </ul>
+        </div>
+    </div>
+</article>
+
+{{! Snolab para o mundo }}
+<article>
+    <h2 class="txt-color-green mar-b-20">{{ article2.title }}</h2>
+    <p>{{ article2.content.txt1 }}</p>
+</article>
+
+{{! Snolab para a Vale }}
+<article>
+    <h2 class="txt-color-green mar-b-20">{{ article3.title }}</h2>
+    <p>{{ article3.content.txt1 }}</p>
+    <p>{{ article3.content.txt2 }}</p>
+    <div class="mediaCustom mar-b-10">
+        <div class="media__img">
+            <a class="fancybox-media fancybox.iframe" href="{{ article3.video }}" title="{{ article3.title }}" onclick="_gaq.push(['_trackEvent', 'snolab-entrevista-cientista', 'clique', 'video']);"><img src="{{ article3.img }}" alt="{{ article3.title }}"></a>
+        </div>
+        <div class="media__body">
+            <blockquote>{{ article3.content.txt3 }}</blockquote>
+            <p>{{ article3.content.txt4 }}</p>
+            <p>{{ article3.content.txt5 }}</p>
+        </div>
+    </div>
+</article>
+
+{{! A Terra como escudo }}
+<article>
+    <h2 class="txt-color-green mar-b-20">{{ article4.title }}</h2>
+    <p>{{ article4.content.txt1 }}</p>
+    <div class="mediaCustom mar-b-10">
+        <div class="media__img--rev">
+            <img src="{{ article4.img }}" alt="{{ article4.title }}">
+        </div>
+        <div class="media__body">
+            <p>{{ article4.content.txt2 }}</p>
+        </div>
+    </div>
+</article>

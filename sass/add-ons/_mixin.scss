@@ -1,0 +1,62 @@
+// Size
+@mixin attr-size($attr, $size, $base:16, $unit:rem, $important:"") {
+    #{$attr}: #{strip-units($size)}px #{$important};
+    #{$attr}: relative-size($size, $base, $unit) #{$important};
+}
+
+// Clearfix
+@mixin cf() {
+    @include clearfix();
+}
+
+// IE7 inline-block
+@mixin inline-block() {
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+}
+
+// IE7 inline-block Important
+@mixin inline-block-important() {
+    display:inline-block !important;
+    *display:inline !important;
+    *zoom:1 !important;
+}
+
+// Font family Default
+@mixin sans-serif($prepend:false) {
+    $list: "Helvetica Neue", Helvetica, sans-serif;
+    font-family: join($prepend, $list, comma);
+}
+
+@mixin serif($prepend:false) {
+    $list: "Times New Roman", Times, serif;
+    font-family: join($prepend, $list, comma);
+}
+
+// Webkit-style focus
+@mixin tab-focus() {
+    // Default
+    outline: thin dotted #333;
+    // Webkit
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+// Placeholder text
+@mixin placeholder($color: $placeholderText) {
+    &:-moz-placeholder {
+        color: $color;
+    }
+    &:-ms-input-placeholder {
+        color: $color;
+    }
+    &::-webkit-input-placeholder {
+        color: $color;
+    }
+}
+
+// Reset filters for IE
+@mixin reset-filter() {
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}

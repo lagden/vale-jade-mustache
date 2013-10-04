@@ -1,0 +1,10 @@
+link(rel='stylesheet', type='text/css', href='#{path}css/main.css').
+.awesome-snolab-base#snolabBase
+    script(src='#{path}js/lib/require.js').
+    script.
+        require.config({
+            baseUrl: "#{path}js"
+        });
+        require(['config'], function () {
+            require(['app/main']);
+        });
