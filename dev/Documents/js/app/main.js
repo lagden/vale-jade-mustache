@@ -5,7 +5,7 @@
     var lang = window.parent.document.documentElement.lang || 'pt-br',
         availables = ['pt-br', 'en-us'];
 
-    if ( !! ~availables.indexOf(lang))
+    if ( availables.indexOf(lang) === -1)
         lang = 'pt-br';
 
     var requires = [
@@ -22,6 +22,7 @@
 
         pos = flow = pika = 0;
 
+        // Contadores
         dados[lang].galery.flow = function() { return flow++; };
         dados[lang].galery.pos = function() { return pos++; };
         dados[lang].galery.pika = function() { return pika++; };

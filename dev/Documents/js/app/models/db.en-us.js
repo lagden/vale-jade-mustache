@@ -5,37 +5,37 @@
     define({
         "en-us": {
             "article1": {
-                "title": "Snolab - desvendando os mistérios do Universo nas profundezas de uma mina subterrânea",
+                "title": "Snolab - Unraveling the mysteries of the Universe in a deep underground mine",
                 "content": {
-                    "txt1": "Já imaginou que a dois quilômetros abaixo da superfície possa existir um laboratório de Física com cientistas e equipamentos ultramodernos para desvendar mistérios do Universo? Parece cena de filme de ficção científica, mas é mais um dos grandes investimentos da Vale na área de inovação.",
-                    "txt2": "Considerado o mais profundo e limpo laboratório do mundo, o Snolab (Sudbury Neutrino Observatory Lab) fica nas profundezas da nossa mina Creighton, em Sudbury, Ontário, no Canadá. Com imensos tanques cheios de argônio, um gás nobre parecido com o nitrogênio, e outros gases resfriados, o laboratório amplia a produção de pesquisas científicas, além de gerar e difundir novos conhecimentos para a cadeia da mineração."
+                    "txt1": "Have you ever imagined that two kilometers below the surface there may be a physics lab with scientists and ultramodern equipment to unravel mysteries of the Universe? It looks like a scene straight out of a science fiction movie, but it is one of Vale's major investments in the area of ​​innovation.",
+                    "txt2": "Considered the deepest and cleanest laboratory in the world, the Snolab (Sudbury Neutrino Observatory Lab) is nestled in the depths of our Creighton mine, in Sudbury, Ontario, Canada. With huge tanks filled with Argon, a noble gas similar to nitrogen, and other cooled gases, the laboratory enhances scientific research production and generates and disseminates new knowledge to the mining chain."
                 },
                 "video": "//www.youtube.com/embed/az2VLQJJnas",
                 "img": "../Documents/images/video1.jpg"
             },
             "article2": {
-                "title": "Snolab para o mundo",
+                "title": "Snolab for the world",
                 "content": {
-                    "txt1": "Entre os principais estudos desenvolvidos no local está o de um raro processo radioativo chamado neutrino-less double beta decay, que poderia explicar o desenvolvimento da matéria e do mundo. Algumas pesquisas buscam, por exemplo, partículas de matérias escuras deixadas pelo Big Bang, a grande explosão que teria dado origem ao Universo. Existente em abundância no Cosmo, o neutrino é uma dessas partículas. Sem carga elétrica e com massa extremamente pequena, ele é considerado um elemento-chave, pois consegue se relacionar tanto com a matéria quanto com a matéria escura."
+                    "txt1": "Among the main studies conducted at the site is one that is looking into a rare radioactive process called neutrino-less double beta decay, which could explain the development of matter and of the world. Some research projects are in search, for example, for particles of dark matter left over from the Big Bang, the great explosion that gave rise to the Universe. Abundant in the Cosmos, neutrino is one of these particles. Electric charge-free and with an extremely small mass, it is considered a key element, because it can relate both with matter and dark matter."
                 }
             },
             "article3": {
-                "title": "Snolab para a Vale",
+                "title": "Snolab for Vale",
                 "content": {
                     "txt1": "O Snolab também serve como base de instalação para o sistema de monitoramento sísmico tridimensional Pups (sigla em inglês para Polaris Underground Project at Snolab), que fornece informações detalhadas sobre atividades sísmicas para a indústria da mineração. Essas informações geotécnicas, por exemplo, nos ajudam a planejar escavações de minas profundas.",
-                    "txt2": "De acordo com o pesquisador e diretor do laboratório, Nigel Smith, o Snolab tem diversas pesquisas que podem ser aplicadas ao negócio da Vale e à mineração. Algumas são ligadas a escavações e perfuração de rochas, atividades usualmente realizadas por esta indústria.",
-                    "txt3": "Há ainda muito o que se pesquisar sobre os melhores meios para minerar, para abrir e manter cavas. Essa é uma das áreas para que ainda podemos contribuir, desenvolvendo outras técnicas. O apoio da Vale está sendo decisivo para abrirmos novas fronteiras para a ciência",
-                    "txt4": "NIGEL SMITH. Diretor da Snolab",
-                    "txt5": "Assista à entrevista com o cientista"
+                    "txt2": "Researcher and lab director Nigel Smith says Snolab has several research projects underway that can be applied to Vale's business and to mining. Some of them are related to rock excavations and drilling, activities commonly performed by this industry.",
+                    "txt3": "There is still a lot to be researched with regard to the best ways to mine, to open and maintain digs. This is one of the areas that we can still contribute to by developing other techniques. Vale's support is crucial to open up new frontiers for science.",
+                    "txt4": "NIGEL SMITH. Snolab Director",
+                    "txt5": ""
                 },
                 "video": "//www.youtube.com/embed/az2VLQJJnas",
                 "img": "../Documents/images/video2.jpg"
             },
             "article4": {
-                "title": "A Terra como escudo",
+                "title": "The Earth as a shield",
                 "content": {
-                    "txt1": "Mas, afinal, por que o laboratório é subterrâneo? A profundidade é necessária para proteger o ambiente de radiações cósmicas que bombardeiam a superfície do planeta. Ao ser construído a dois quilômetros abaixo da superfície, o Snolab permite que os cientistas conduzam experimentos em ambientes com a menor interferência possível de radioatividade ambiental e solar.",
-                    "txt2": "Para se ter uma ideia do grau de sensibilidade, as experiências podem ser afetadas pelo urânio presente no concreto das cavernas e até mesmo pelo potássio do suor de uma mão. Usando a Terra como escudo contra os raios cósmicos, pesquisas podem ser melhor desenvolvidas com o intuito de entender mais sobre o Universo, como o surgimento das galáxias, por exemplo."
+                    "txt1": "But, after all, why is the lab underground? The depth is necessary to protect the environment from cosmic radiation bombarding the planet's surface. Being built two kilometers beneath the surface, Snolab allows scientists to conduct experiments in environments where there is the least possible interference from environmental and solar radioactivity.",
+                    "txt2": "The degree of sensitivity is such that the experiments can be affected by uranium present in concrete of the caves and even by the potassium contained in the sweat of one’s hand. Using the Earth as a shield against cosmic rays affords the best conditions for research to be carried out in pursuit of gaining a better understanding of the Universe, such as on the emergence of galaxies, for example."
                 },
                 "img": "../Documents/images/escudo.jpg"
             },
@@ -66,9 +66,9 @@
             },
             "links": {
                 "href1": "http://www.snolab.ca",
-                "caption1": "Visite o site no Snolab",
+                "caption1": "Visit the Snolab website",
                 "href2": "http://www.youtube.com/watch?v=6P9fEhuyx50&list=FLlGXaidyLxYqzsp8FkUujBg",
-                "caption2": "Snolab no Youtube"
+                "caption2": "Snolab on YouTube"
             }
         }
     });

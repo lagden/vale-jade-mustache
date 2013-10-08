@@ -46,21 +46,24 @@ if (!(window.console && console.log)) {
 }
 
 // Retorna o o dir atual ex.: http://xxx.com/dir/awesome/index.html -> /dir/awesome
-
 function urlPath() {
     var path = String(window.location.pathname).split('/');
     path.pop();
     return path.join('/');
 }
 
+// Css
+function loadCss(url) {
+    var link = document.createElement("link");
+    link.type = "text/css";
+    link.rel = "stylesheet";
+    link.href = url;
+    document.getElementsByTagName("head")[0].appendChild(link);
+}
+
 function initGaleria() {
     setTimeout(function() {
-        var tmp;
-        try {
-            tmp = TheImageFlow;
-        } catch (e) {
-            tmp = false;
-        }
+        var tmp = window.TheImageFlow;
         if (tmp)
             tmp.init();
         else
