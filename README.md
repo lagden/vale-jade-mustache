@@ -28,18 +28,22 @@ Configuração para o desenvolvimento.
     cd estrada
     npm install -d
     
+### Desenvolvendo
+
+Para trabalhar no projeto, você deverá fazer o seguinte:
+
+- Execute o `grunt watch`
+- Pastas de desenvolvimento: `template`, `dev` e `sass`
+
+E para visualizar, abra no navegador: `http://127.0.0.1/estrada/dev/Pages`
+    
 ### Deploy
 
-Gera os arquivos finais na pasta `public/Documents` que deverão ser copiados para a pasta `Documents` no gerenciador de arquivos da `Vale.com`
+O comando
 
     grunt deploy
-    
 
-### Trabalhando
-
-Para fazer alteração nesse projeto, você deverá trabalhar com os conteúdos das pastas `template`, `dev` e `sass`.
-
-Execute o `grunt watch` e abra o seu navegador `http://127.0.0.1/estrada/dev/Pages`.
+gera os arquivos de publicação na pasta `public`. Você deverá acessar a pasta `public/Documents` e copiar os arquivos para a pasta `Documents` no gerenciador de arquivos da `Vale.com` no `Share Point`.
 
 ## Contributors
 
