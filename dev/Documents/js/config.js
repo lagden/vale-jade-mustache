@@ -61,16 +61,6 @@ function loadCss(url) {
     document.getElementsByTagName("head")[0].appendChild(link);
 }
 
-function initGaleria() {
-    setTimeout(function() {
-        var tmp = window.TheImageFlow;
-        if (tmp)
-            tmp.init();
-        else
-            console.log("não tem TheImageFlow");
-    }, 100);
-}
-
 (function(window, require) {
 
     "use strict";
