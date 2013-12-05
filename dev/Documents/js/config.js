@@ -81,8 +81,8 @@ var TheLightboxVideo = {
                 vp.addClass("video-flowplayer").html('<video x-webkit-airplay="allow" controls alt="video" src="' + vp.data("video") + '"/>');
                 abrirVideo(vp);
 
-                return false
-            })
+                return false;
+            });
         }
     }
 };
@@ -100,7 +100,7 @@ function abrirVideo(videoPlayer) {
         if (d) {
             $(videoPlayer).each(function(indice, elemento) {
                 $(elemento).empty().html('<video x-webkit-airplay="allow" controls alt="video" src="' + $(this).data("rtsp") + '"/>');
-            })
+            });
         } else {
             if ($.browser.msie) {
                 $(videoPlayer).each(function(indice, elemento) {
@@ -129,8 +129,8 @@ function abrirVideo(videoPlayer) {
                             background: h,
                             backgroundGradient: "none"
                         }
-                    })
-                })
+                    });
+                });
             } else {
                 if (!e) {
                     $(videoPlayer).each(function(indice, elemento) {
@@ -147,8 +147,8 @@ function abrirVideo(videoPlayer) {
                             swf: b,
                             rtmp: g,
                             engine: "flash"
-                        })
-                    })
+                        });
+                    });
                 }
             }
         }
