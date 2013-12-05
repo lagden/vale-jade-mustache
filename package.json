@@ -12,7 +12,7 @@
     "name": "Thiago Lagden"
   },
   "scripts": {
-    "install": "volo add -f && grunt"
+    "install": "volo add -skipexists && grunt"
   },
   "license": "BSD",
   "devDependencies": {
@@ -28,7 +28,7 @@
   "volo": {
     "baseUrl": "dev/Documents/js/lib",
     "dependencies": {
-      "require": "github:jrburke/requirejs/2.1.8",
+      "require": "github:jrburke/requirejs/2.1.9",
       "text": "github:requirejs/text/2.0.10",
       "mustache": "github:janl/mustache.js/0.7.2"
     }

@@ -29,8 +29,11 @@
 
         snolabBase.innerHTML = Mustache.render(template, dados[lang]);
 
+        var $article1Video = $('#article1Video');
+
         $.fancybox({
             beforeLoad : function() {
+                $article1Video.removeClass('visuallyhidden');
                 showFlowplayer();
             }
         });
