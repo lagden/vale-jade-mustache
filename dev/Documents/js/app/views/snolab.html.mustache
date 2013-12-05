@@ -2,9 +2,18 @@
 <article>
     <h1 class="txt-color-gray mar-b-20">{{ article1.title }}</h1>
     <p>{{ article1.content.txt1 }}</p>
-    <a class="bl mar-b-20 fancybox-media fancybox.iframe" href="{{ article1.video }}" title="{{ article1.title }}" onclick="_gaq.push(['_trackEvent', 'snolab', 'clique', 'video']);"><img src="{{ article1.img }}" alt="{{ article1.title }}"></a>
+    <a class="bl mar-b-20 fancybox-media" href="#article1Video" title="{{ article1.title }}" onclick="_gaq.push(['_trackEvent', 'snolab', 'clique', 'video']);"><img src="{{ article1.img }}" alt="{{ article1.title }}"></a>
     <p>{{ article1.content.txt2 }}</p>
 </article>
+
+<div id="article1Video">
+    <div class="video-flowplayer" data-rtmp="{{ article1.video.dataRtmp }}" data-engine="{{ article1.video.dataEngine }}">
+        <video>
+            <source type="video/flash" src="{{ article1.video.dataFlash }}">
+            <source type="video/mp4" src="{{ article1.video.dataVideo }}">
+        </video>
+    </div>
+</div>
 
 {{! Galeria }}
 <article>

@@ -10,8 +10,14 @@
                     "txt1": "Have you ever imagined that two kilometers below the surface there may be a physics lab with scientists and ultramodern equipment to unravel mysteries of the Universe? It looks like a scene straight out of a science fiction movie, but it is one of Vale's major investments in the area of ​​innovation.",
                     "txt2": "Considered the deepest and cleanest laboratory in the world, the Snolab (Sudbury Neutrino Observatory Lab) is nestled in the depths of our Creighton mine, in Sudbury, Ontario, Canada. With huge tanks filled with Argon, a noble gas similar to nitrogen, and other cooled gases, the laboratory enhances scientific research production and generates and disseminates new knowledge to the mining chain."
                 },
-                "video": "//www.youtube.com/embed/az2VLQJJnas",
-                "img": "../Documents/images/video1.jpg"
+                "img": "../Documents/images/video1.jpg",
+                "video": {
+                    "dataEngine": "flash",
+                    "dataFlash": "vale/snolab/mp4:nigel-smith-director-snolab.mp4",
+                    "dataVideo": "http://wstr.isat-it.com.br:1935/isat/vale/snolab/mp4:nigel-smith-director-snolab.mp4/playlist.m3u8",
+                    "dataRtmp": "rtmp://wstr.isat-it.com.br/isat/",
+                    "dataRtsp": "rtsp://wstr.isat-it.com.br:1935/isat/vale/snolab/mp4:nigel-smith-director-snolab.mp4"
+                }
             },
             "article2": {
                 "title": "Snolab for the world",
